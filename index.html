@@ -10,94 +10,23 @@
         <meta charset="UTF-8" />    <!--页面字符集为UTF-8-->
         <!--<meta http-equiv="refresh" content="5,url=https://www.baidu.com"/>-->
     </head>
-    <body>                          <!--页面内容-->
-        
-        
-        <!--
-            属性：
-                可以通过属性来设置如何处理标签中的内容
-                可以在开始标签中添加属性
-                属性是名值对的结构
-                属性名 = “属性值”
-                属性之间空格隔开
-        -->
-        
-        
-        <!--
-            元素：将一个完整的标签称为元素
-        -->
-        
-        
-        <!--
-            标题标签，共六级 h1-h6
-            不必关心文字大小，表现内容由CSS控制
-            关心标签的语义
-            搜索引擎检索title后即检索h1中的内容
-        -->
+    <body>                          
         <h1>Hello World</h1>        
         <h2>中文测试</h2>
         <h2>github test</h2>
-        
-        
-        <!--
-            段落标签
-            段落标签用于表示内容中的一个段落
-            使用p表示
-        -->
         <p>这是一个段落</p>
         <p>
-            床前明月光，<br />          <!--用于换行-->
+            床前明月光，<br />          
             疑是地上霜。<br />
         </p>
         
         
-        <hr />                         <!--分割线标签，hr和br都是自结束标签-->
-        
-        
-        <!--
-            实体
-            转义，避免和标签冲突
-            使用特殊符号表示
-            语法：
-                &实体的名字
-                <   &lt;
-                >   &gt;
-                空格 &nbsp；
-                copyright &copy;
-
-        -->
+        <hr />   
         <h2>a&lt;b&gt;c</h2>
-        
-        
-        <!--
-            图片标签
-            使用img标签向网页中引入外部图片
-            src 图片路径
-            alt 图片不能显示时对图片的描述
-            width 宽度，像素为单位
-            height 高度
-            除了自适应界面，不建议设置width和height
-            ../返回上一级目录
-        -->
         <img src="img1.jpg" alt = "第一张图片" width = "400">
-        
-        
-        <!--
-            内联框架可以引入一个外部的页面
-            使用iframe
-            属性：
-                src：指向一个外部页面的路径，可以使用相对路径
-        -->
         <hr />
         <iframe src="https://www.bilibili.com" width="800" height="800" name="bilibili"></iframe>
-        
-        
         <h2>接下来是超链接</h2>
-        <!--
-            使用a标签创建超链接
-            属性：
-                href：指向链接跳转的目标地址
-        -->
         <a href="https://www.youtube.com" target="_blank">Go to youtube<a>
     </body>
 </html>
