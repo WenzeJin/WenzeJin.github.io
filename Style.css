@@ -1,9 +1,9 @@
-/*白色文字*/
-.colorwhite{
-    color:white;
-}
-
 /*背景颜色*/
 h1{
     background-color: rgba(147, 147, 173, 0.315);
+}
+
+/*白色文字*/
+.colorwhite{
+    color:white;
 }
